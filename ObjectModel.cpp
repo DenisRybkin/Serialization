@@ -7,7 +7,7 @@ namespace ObjectModel
 {
 	//definition
 
-	Root::Root()
+	abstract Root::Root()
 		:
 		name("unknow"),
 		wrapper(0),

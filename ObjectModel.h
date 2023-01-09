@@ -2,6 +2,8 @@
 #include <iostream>
 #include <vector>
 
+#define abstract
+
 namespace ObjectModel
 {
 	enum class Wrapper {
@@ -28,7 +30,7 @@ namespace ObjectModel
 		BOOL
 	};
 
-	class Root
+	abstract class Root
 	{
 	protected:
 		Root();
